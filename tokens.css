@@ -1,0 +1,49 @@
+/*
+ * Xkye brand tokens, transcribed from XKYE Brand Kit v2 (Brand Identity Guidelines v1.0).
+ * The kit is the source of truth; change it there first.
+ *
+ * Proportion: 60 neutral · 25 Navy · 10 Teal · 5 Cyan. Cyan is a spark, not a flood.
+ * White on Cyan fails for body text: set Deep Navy on Cyan instead.
+ */
+:root {
+  /* Core palette */
+  --xkye-cyan: #0da5c9; /* accents, icons, large type */
+  --xkye-teal: #1f7096; /* links, buttons, UI states */
+  --xkye-navy: #303b62; /* headlines, primary surfaces */
+
+  /* Neutrals */
+  --xkye-deep-navy: #1b2240;
+  --xkye-ink: #151a2e;
+  --xkye-slate: #5a6380;
+  --xkye-cyan-tint: #dff3f8;
+  --xkye-mist: #eef1f6;
+  --xkye-paper: #f9fafb;
+
+  /* Always Cyan → Navy, left to right or top-left to bottom-right. */
+  --xkye-gradient: linear-gradient(90deg, var(--xkye-cyan) 0%, var(--xkye-navy) 100%);
+
+  /* Typography: Montserrat for every headline and paragraph; JetBrains Mono for code, data, technical labels. */
+  --xkye-font-sans: "Montserrat", system-ui, sans-serif;
+  --xkye-font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Type scale: size / line-height / weight / tracking */
+  --xkye-display-size: 64px;
+  --xkye-display-leading: 1.05;
+  --xkye-display-weight: 600;
+  --xkye-display-tracking: -0.02em;
+
+  --xkye-heading-size: 32px;
+  --xkye-heading-leading: 1.2;
+  --xkye-heading-weight: 600;
+
+  --xkye-eyebrow-size: 13px;
+  --xkye-eyebrow-weight: 500;
+  --xkye-eyebrow-tracking: 0.3em;
+
+  --xkye-body-size: 16px;
+  --xkye-body-leading: 1.65;
+  --xkye-body-weight: 400;
+
+  --xkye-code-size: 14px;
+  --xkye-code-weight: 400;
+}

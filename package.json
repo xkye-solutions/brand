@@ -1,0 +1,9 @@
+{
+  "name": "@xkye/brand",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./tokens.css": "./tokens.css",
+    "./assets/*": "./assets/*"
+  }
+}
